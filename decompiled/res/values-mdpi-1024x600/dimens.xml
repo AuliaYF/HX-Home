@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawer_bottom_margin">15.0dip</dimen>
+    <dimen name="bottom_area_height">126.0dip</dimen>
+    <dimen name="button_bar_height">105.0dip</dimen>
+    <dimen name="app_icon_size">72.0dip</dimen>
+    <dimen name="dockbar_icon_size">76.0dip</dimen>
+    <dimen name="app_icon_bg_outter_padding">7.0dip</dimen>
+    <dimen name="app_icon_bg_inner_padding">6.0dip</dimen>
+    <dimen name="app_text_fadding_size">105.0dip</dimen>
+    <dimen name="shortcut_icon_size">90.0dip</dimen>
+    <dimen name="folder_content_size">120.0dip</dimen>
+    <dimen name="folder_line_height">130.0dip</dimen>
+    <dimen name="folder_text_bottom_offset">3.0px</dimen>
+    <dimen name="quicksettings_margin_top">32.0dip</dimen>
+</resources>

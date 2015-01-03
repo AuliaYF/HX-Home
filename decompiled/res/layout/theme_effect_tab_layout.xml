@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TabHost android:id="@*android:id/tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TabWidget android:id="@*android:id/tabs" android:background="@drawable/theme_title_bk" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+            <com.carldeancatabay.launcher.view.FrameLayout android:id="@*android:id/tabcontent" android:background="@color/theme_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </TabHost>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:orientation="vertical" android:background="#ffd7d6d3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/theme_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/theme_preview_title_layout" />
+    <com.carldeancatabay.launcher.theme.SingleFlingGallery android:id="@id/theme_screenlock_gallery" android:fadingEdge="none" android:alwaysDrawnWithCache="true" android:addStatesFromChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="@dimen/theme_screenlock_preview_margin_top" android:layout_marginRight="5.0dip" android:spacing="@dimen/theme_screenlock_preview_gallery_spacing" android:layout_below="@id/theme_top_bar" android:unselectedAlpha="255.0" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/theme_preview_bottombar_layout" />
+</com.carldeancatabay.launcher.view.RelativeLayout>

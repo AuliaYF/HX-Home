@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.carldeancatabay.launcher">
+    <PreferenceCategory android:title="@string/settings_drawer_apps">
+        <com.carldeancatabay.launcher.preference.ListPreference android:persistent="false" android:title="@string/settings_drawer_apps_transformation_type" android:key="pref_drawer_screen_key_effects" />
+        <CheckBoxPreference android:title="@string/pref_loop_screen_title" android:key="pref_key_loop_drawer_screen" android:summary="@string/pref_loop_screen_summary" android:defaultValue="true" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/drawer_apps_view_type" android:key="drawer_apps_view_type" android:defaultValue="0" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/settings_drawer_layout" android:key="pref_drawer_layout_type" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_drawer_tabs">
+        <com.carldeancatabay.launcher.preference.ListPreferenceMultiSelect android:entries="@array/drawer_extended_tabs_entries" android:title="@string/settings_drawer_shown_tabs" android:key="pref_drawer_hidden_tabs" android:defaultValue="" android:entryValues="@array/drawer_extended_tabs_values" custom:inverse="true" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/drawer_tab_navigation_type" android:key="pref_drawer_tab_navigation_type" android:defaultValue="0" />
+    </PreferenceCategory>
+</PreferenceScreen>

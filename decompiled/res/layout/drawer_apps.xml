@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.drawer.DrawerAppsView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.DrawerAppsGrid android:id="@id/drawer_apps_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.carldeancatabay.launcher.DrawerAppsList android:id="@id/drawer_apps_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/drawer_bottom_margin">
+        <ListView android:id="@id/apps_list" android:paddingLeft="10.0dip" android:paddingRight="28.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:cacheColorHint="@*android:color/transparent" android:divider="@*android:color/transparent" android:dividerHeight="0.0dip" />
+        <TextView android:textSize="24.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/toast_view" android:background="@drawable/drawer_apps_list_toast" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:shadowColor="#ff2c6b04" android:shadowDx="0.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <com.carldeancatabay.launcher.ListScrollDecoratorView android:id="@id/decorator_view" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/highlight_view" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/drawer_apps_list_highlight" android:layout_alignParentRight="true" />
+    </com.carldeancatabay.launcher.DrawerAppsList>
+</com.carldeancatabay.launcher.drawer.DrawerAppsView>

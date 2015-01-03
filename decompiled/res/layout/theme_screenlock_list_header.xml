@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:orientation="vertical" android:background="@drawable/theme_overview_first_border_line" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/theme_screenlock_list_header_img" android:layout_width="66.0dip" android:layout_height="110.0dip" style="@style/LocalTheme.Current.Image" />
+    <com.carldeancatabay.launcher.view.LinearLayout android:layout_toRightOf="@id/theme_screenlock_list_header_img" style="@style/LocalTheme.Current.InfoLayout">
+        <TextView android:id="@id/theme_screenlock_list_header_name" style="@style/LocalTheme.Current.Info.Name" />
+        <TextView android:id="@id/theme_screenlock_list_header_author" style="@style/LocalTheme.Current.Info.Deatil" />
+        <TextView android:id="@id/theme_screenlock_list_header_size" style="@style/LocalTheme.Current.Info.Deatil" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+    <ImageView android:layout_marginTop="96.0dip" style="@style/LocalTheme.Current.InUsingNotice" />
+</com.carldeancatabay.launcher.view.RelativeLayout>

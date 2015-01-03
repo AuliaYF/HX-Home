@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.ScreenLayoutSeekBar android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_text_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_layout_custom_rows" />
+    <SeekBar android:id="@id/rows_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SeekBar" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_text_dark" android:id="@id/rows_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_text_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_layout_custom_columns" />
+    <SeekBar android:id="@id/columns_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SeekBar" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/dialog_text_dark" android:id="@id/columns_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.carldeancatabay.launcher.ScreenLayoutSeekBar>

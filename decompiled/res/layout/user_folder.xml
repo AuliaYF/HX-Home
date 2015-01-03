@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.UserFolder android:orientation="vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/folder_main" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <GridView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="insideInset" android:id="@id/folder_content" android:paddingTop="0.0dip" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:drawSelectorOnTop="false" android:verticalSpacing="0.0dip" />
+        <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/folder_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/folder_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="#ffb8b8b8" android:id="@id/folder_name" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <EditText android:textSize="15.0sp" android:textStyle="bold" android:textColorHighlight="#ffcccccc" android:id="@id/folder_name_editor" android:background="@drawable/edit_text_bg" android:paddingLeft="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="60.0dip" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageButton android:id="@id/folder_name_btn" android:background="@null" android:layout_width="32.0dip" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/folder_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </com.carldeancatabay.launcher.view.RelativeLayout>
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+</com.carldeancatabay.launcher.UserFolder>

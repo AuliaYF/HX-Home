@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/theme_overview_second_border_line" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/theme_screenlock_list_item_1_container" android:layout_marginLeft="14.0dip" style="@style/LocalTheme.Item.Container">
+        <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/theme_screenlock_list_item_1_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/theme_screenlock_list_item_1_image" style="@style/LocalTheme.Item.Image" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/txt_black" android:id="@id/online_num" android:background="@drawable/theme_overview_online_text_bg" android:paddingRight="3.0dip" android:visibility="gone" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip" style="@style/LocalTheme.Item.Notice" />
+            <ImageView android:id="@id/theme_screenlock_list_item_1_update_notice_image" android:src="@drawable/theme_overview_should_upgrade" style="@style/LocalTheme.Item.Notice" />
+        </com.carldeancatabay.launcher.view.FrameLayout>
+        <TextView android:id="@id/theme_screenlock_list_item_1_name" android:layout_below="@id/theme_screenlock_list_item_1_image_container" style="@style/LocalTheme.Item.Name" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/theme_screenlock_list_item_2_container" style="@style/LocalTheme.Item.Container">
+        <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/theme_screenlock_list_item_2_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/theme_screenlock_list_item_2_image" style="@style/LocalTheme.Item.Image" />
+            <ImageView android:id="@id/theme_screenlock_list_item_2_update_notice_image" android:src="@drawable/theme_overview_should_upgrade" style="@style/LocalTheme.Item.Notice" />
+        </com.carldeancatabay.launcher.view.FrameLayout>
+        <TextView android:id="@id/theme_screenlock_list_item_2_name" android:layout_below="@id/theme_screenlock_list_item_2_image_container" style="@style/LocalTheme.Item.Name" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/theme_screenlock_list_item_3_container" android:layout_marginRight="14.0dip" style="@style/LocalTheme.Item.Container">
+        <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/theme_screenlock_list_item_3_image_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/theme_screenlock_list_item_3_image" style="@style/LocalTheme.Item.Image" />
+            <ImageView android:id="@id/theme_screenlock_list_item_3_update_notice_image" android:src="@drawable/theme_overview_should_upgrade" style="@style/LocalTheme.Item.Notice" />
+        </com.carldeancatabay.launcher.view.FrameLayout>
+        <TextView android:id="@id/theme_screenlock_list_item_3_name" android:layout_below="@id/theme_screenlock_list_item_3_image_container" style="@style/LocalTheme.Item.Name" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+</com.carldeancatabay.launcher.view.LinearLayout>

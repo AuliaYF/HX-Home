@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="workspace_long_axis_end_padding">84.0dip</dimen>
+    <dimen name="button_bar_height">67.32999dip</dimen>
+    <dimen name="dockbar_icon_size">49.329987dip</dimen>
+    <dimen name="app_icon_bg_outter_padding">2.3299866dip</dimen>
+    <dimen name="app_icon_bg_inner_padding">2.0dip</dimen>
+    <dimen name="theme_icon_group_height">320.0dip</dimen>
+    <dimen name="folder_content_size">74.0dip</dimen>
+    <dimen name="folder_line_height">85.0dip</dimen>
+    <dimen name="folder_bottom_min_offset">10.0dip</dimen>
+    <dimen name="folder_content_extra_height">46.0dip</dimen>
+    <dimen name="theme_effect_previous_cell_width">70.0dip</dimen>
+    <dimen name="theme_effect_previous_cell_height">80.0dip</dimen>
+    <dimen name="theme_effect_previous_short_axis_end_padding">0.0dip</dimen>
+    <dimen name="theme_effect_previous_long_axis_padding">30.0dip</dimen>
+    <dimen name="taskmanager_icon_marginTop">14.0dip</dimen>
+    <dimen name="taskmanager_flash_margin">4.0dip</dimen>
+    <dimen name="icon_size">36.0px</dimen>
+    <dimen name="theme_screenlock_preview_height">240.0px</dimen>
+    <dimen name="theme_screenlock_preview_width">144.0px</dimen>
+    <dimen name="theme_screenlock_preview_gallery_spacing">64.0dip</dimen>
+    <dimen name="password_keyboard_key_height">53.0dip</dimen>
+    <dimen name="password_keyboard_screen_height">310.0dip</dimen>
+    <dimen name="password_keyboard_margin_bottom">8.0dip</dimen>
+    <dimen name="clock_margin_top">10.0dip</dimen>
+    <dimen name="feedback_activity_content_edittext_height">100.0dip</dimen>
+</resources>

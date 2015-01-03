@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:background="#ffd7d6d3" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/theme_overview_list_end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip" />
+</com.carldeancatabay.launcher.view.LinearLayout>

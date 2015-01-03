@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/switcher_manage_inner_view" android:background="@drawable/dialog_bg" android:layout_width="@dimen/switcher_detail_view_width" android:layout_height="@dimen/switcher_detail_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.carldeancatabay.launcher">
+    <TextView android:textSize="18.0sp" android:textColor="#ff5b8527" android:gravity="left" android:id="@id/switcher_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="2.0dip" android:text="@string/switcher_detail_title" android:singleLine="true" />
+    <com.carldeancatabay.launcher.switcher.SwitcherVerticalScrollableView android:orientation="vertical" android:id="@id/switcher_scrollable_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/switcher_detail_title">
+        <com.carldeancatabay.launcher.DragLayer android:id="@id/switcher_drag_layer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.carldeancatabay.launcher.switcher.SwitcherDetailView android:orientation="vertical" android:id="@id/switcher_dialog_layer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <view android:layout_gravity="center" android:id="@id/switch_container" android:scrollbars="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" class="com.carldeancatabay.launcher.switcher.SwitcherDetailView$SwitchersGridView" />
+            </com.carldeancatabay.launcher.switcher.SwitcherDetailView>
+        </com.carldeancatabay.launcher.DragLayer>
+        <TextView android:textSize="12.0sp" android:textColor="#ffc5c5c5" android:gravity="right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/switcher_drag_to_sort" android:singleLine="true" />
+        <com.carldeancatabay.launcher.switcher.VolumeControlView android:orientation="vertical" android:id="@id/switcher_volumnview" android:background="@drawable/switcher_audioview_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/switcher_volumn_height" android:layout_marginBottom="@dimen/switcher_detail_view_volume_control_margin_bottom">
+            <ImageView android:layout_gravity="center" android:id="@id/switcher_audioview_drag_btn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_audioview_drag_btn_selector_bottom" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff484848" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/switcher_volume_ring" android:singleLine="true" android:layout_alignParentTop="true" />
+            <com.carldeancatabay.launcher.view.RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:id="@id/switcher_icon11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_volumn_ring_min" />
+                <ImageView android:id="@id/switcher_icon12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_volumn_ring_max" android:layout_alignParentRight="true" />
+                <SeekBar android:id="@id/switcher_audio_ring_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/switcher_icon12" android:layout_toRightOf="@id/switcher_icon11" style="@style/SeekBar" />
+            </com.carldeancatabay.launcher.view.RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ff484848" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/switcher_volume_media" android:singleLine="true" />
+            <com.carldeancatabay.launcher.view.RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:id="@id/switcher_icon21" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_volumn_media_min" />
+                <ImageView android:id="@id/switcher_icon22" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_volumn_media_max" android:layout_alignParentRight="true" />
+                <SeekBar android:id="@id/switcher_audio_media_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/switcher_icon22" android:layout_toRightOf="@id/switcher_icon21" style="@style/SeekBar" />
+            </com.carldeancatabay.launcher.view.RelativeLayout>
+            <TextView android:textSize="16.0sp" android:textColor="#ff484848" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/switcher_volume_alarm" android:singleLine="true" />
+            <com.carldeancatabay.launcher.view.RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <ImageView android:id="@id/switcher_icon31" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_volumn_alarm_min" />
+                <ImageView android:id="@id/switcher_icon32" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/switcher_volumn_alarm_max" android:layout_alignParentRight="true" />
+                <SeekBar android:id="@id/switcher_audio_alarm_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/switcher_icon32" android:layout_toRightOf="@id/switcher_icon31" style="@style/SeekBar" />
+            </com.carldeancatabay.launcher.view.RelativeLayout>
+        </com.carldeancatabay.launcher.switcher.VolumeControlView>
+    </com.carldeancatabay.launcher.switcher.SwitcherVerticalScrollableView>
+</com.carldeancatabay.launcher.view.RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/theme_icons" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:id="@id/theme_icon_group" android:layout_width="fill_parent" android:layout_height="@dimen/theme_icon_group_height" android:layout_marginTop="50.0dip" android:layout_marginBottom="50.0dip">
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/theme_icon_line1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <ImageView android:id="@id/theme_icon1" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts2" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon2" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon3" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_mms" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon4" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_browser" android:layout_weight="1.0" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/theme_icon_line2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <ImageView android:id="@id/theme_icon5" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts2" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon6" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon7" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_mms" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon8" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_browser" android:layout_weight="1.0" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/theme_icon_line3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <ImageView android:id="@id/theme_icon9" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts2" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon10" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon11" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_mms" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon12" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_browser" android:layout_weight="1.0" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/theme_icon_line4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+            <ImageView android:id="@id/theme_icon13" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts2" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon14" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_contacts" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon15" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_mms" android:layout_weight="1.0" />
+            <ImageView android:id="@id/theme_icon16" android:layout_width="0.0dip" android:layout_height="@dimen/theme_icon_height" android:src="@drawable/app_com_android_browser" android:layout_weight="1.0" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.view.RelativeLayout>

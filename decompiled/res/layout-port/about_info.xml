@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/about_header" android:layout_alignParentTop="true" style="@style/LocalTheme.Header">
+        <TextView android:text="@string/settings_about_header" style="@style/LocalTheme.Title" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <com.carldeancatabay.launcher.view.RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/launcher_info_detail" android:layout_below="@id/about_header">
+        <ImageView android:layout_gravity="center" android:id="@id/launcher_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/launcher_info" android:layout_above="@id/launcher_app_version" android:layout_centerInParent="true" />
+        <TextView android:textSize="20.0dip" android:textColor="#ff438c09" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/launcher_app_version" android:background="@*android:color/white" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="5.5dip" android:text="version" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:id="@id/launcher_info_detail" android:background="#fff7f7f7" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@drawable/dialog_add_items_horizontal_unit" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+        <com.carldeancatabay.launcher.view.RelativeLayout android:gravity="left|center" android:id="@id/bbs_info" android:paddingLeft="9.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff414141" android:id="@id/bbs_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_about_feedback" />
+            <TextView android:textSize="13.0sp" android:textColor="#ff959595" android:id="@id/bbs_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/bbs_title" />
+        </com.carldeancatabay.launcher.view.RelativeLayout>
+        <View android:background="@drawable/dialog_add_items_horizontal_unit" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+        <com.carldeancatabay.launcher.view.RelativeLayout android:gravity="left|center" android:id="@id/weibo_info" android:paddingLeft="9.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff414141" android:id="@id/weibo_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_about_weibo" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff959595" android:id="@id/weibo_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/weibo_title" />
+        </com.carldeancatabay.launcher.view.RelativeLayout>
+        <View android:background="@drawable/dialog_add_items_horizontal_unit" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+        <com.carldeancatabay.launcher.view.RelativeLayout android:gravity="left|center" android:paddingLeft="9.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff414141" android:gravity="left|center" android:id="@id/license_link" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_about_license" />
+        </com.carldeancatabay.launcher.view.RelativeLayout>
+        <View android:background="@drawable/dialog_add_items_horizontal_unit" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+        <com.carldeancatabay.launcher.view.RelativeLayout android:gravity="left|center" android:paddingLeft="9.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff414141" android:gravity="left|center" android:id="@id/privacy_statement_link" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/settings_about_privacy_statement" />
+        </com.carldeancatabay.launcher.view.RelativeLayout>
+        <View android:background="@drawable/dialog_add_items_horizontal_unit" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="1.0dip" android:layout_marginRight="1.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ffc5c5c5" android:gravity="left|center" android:id="@id/copyright" android:paddingLeft="9.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/settings_about_copyright" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.view.RelativeLayout>

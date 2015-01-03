@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bottom_move_to_home" />
+    <item android:drawable="@drawable/bottom_move_to_home_hover" />
+</transition>

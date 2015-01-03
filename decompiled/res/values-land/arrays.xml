@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_pic_layout_values">
+        <item>2x3</item>
+        <item>2x3</item>
+    </string-array>
+    <string-array name="drawer_video_layout_values">
+        <item>3x3</item>
+        <item>2x4</item>
+    </string-array>
+    <string-array name="drawer_music_layout_values">
+        <item>2x3</item>
+        <item>3x3</item>
+    </string-array>
+    <string-array name="home_layout_values">
+        <item>4x4</item>
+        <item>5x4</item>
+        <item>5x5</item>
+    </string-array>
+    <string-array name="drawer_layout_values">
+        <item>3x5</item>
+        <item>3x6</item>
+        <item>4x6</item>
+    </string-array>
+</resources>

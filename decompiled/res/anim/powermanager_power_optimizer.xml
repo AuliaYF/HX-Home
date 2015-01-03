@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer1" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer2" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer3" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer4" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer5" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer6" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer7" />
+    <item android:duration="125" android:drawable="@drawable/powermanager_power_optimizer8" />
+</animation-list>

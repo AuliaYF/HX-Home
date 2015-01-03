@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.util.HorizontalPager android:id="@id/market_screens" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/market_indicators" />
+    <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/market_indicators" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</com.carldeancatabay.launcher.view.RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/theme_overview_second_border_line" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/lock_bg_item_1_container" android:layout_marginLeft="14.0dip" style="@style/LocalTheme.Item.Container">
+        <ImageView android:id="@id/lock_bg_item_1_image" style="@style/LocalTheme.Item.Image" />
+        <TextView android:id="@id/lock_bg_item_1_name" android:layout_below="@id/lock_bg_item_1_image" style="@style/LocalTheme.Item.Name" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/lock_bg_item_2_container" style="@style/LocalTheme.Item.Container">
+        <ImageView android:id="@id/lock_bg_item_2_image" style="@style/LocalTheme.Item.Image" />
+        <TextView android:id="@id/lock_bg_item_2_name" android:layout_below="@id/lock_bg_item_2_image" style="@style/LocalTheme.Item.Name" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/lock_bg_item_3_container" android:layout_marginRight="14.0dip" style="@style/LocalTheme.Item.Container">
+        <ImageView android:id="@id/lock_bg_item_3_image" style="@style/LocalTheme.Item.Image" />
+        <TextView android:id="@id/lock_bg_item_3_name" android:layout_below="@id/lock_bg_item_3_image" style="@style/LocalTheme.Item.Name" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+</com.carldeancatabay.launcher.view.LinearLayout>

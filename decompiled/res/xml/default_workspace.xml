@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res/com.carldeancatabay.launcher">
+    <widgetview launcher:container="-100" launcher:screen="2" launcher:x="0" launcher:y="0" launcher:spanX="4" launcher:spanY="1" launcher:widgetViewType="3" />
+    <widgetview launcher:container="-100" launcher:screen="2" launcher:x="0" launcher:y="3" launcher:spanX="1" launcher:spanY="1" launcher:widgetViewType="2" launcher:maxYCount="4" />
+    <widgetview launcher:container="-100" launcher:screen="2" launcher:x="3" launcher:y="3" launcher:widgetViewType="6" launcher:maxYCount="4" />
+    <favorite launcher:container="-100" launcher:screen="2" launcher:x="1" launcher:y="3" launcher:action="android.intent.action.MUSIC_PLAYER" launcher:maxYCount="4" />
+    <favorite launcher:container="-100" launcher:screen="2" launcher:x="2" launcher:y="3" launcher:spanX="1" launcher:spanY="1" launcher:action="android.media.action.IMAGE_CAPTURE" launcher:maxYCount="4" />
+    <favorite launcher:container="-100" launcher:screen="2" launcher:x="3" launcher:y="3" launcher:spanX="1" launcher:spanY="1" launcher:action="android.intent.action.GET_CONTENT" launcher:type="image/*" launcher:maxYCount="4" />
+    <draweruserfolder launcher:container="-100" launcher:x="0" launcher:title="@string/default_folder_name_game" />
+    <draweruserfolder launcher:container="-100" launcher:x="1" launcher:title="@string/default_folder_name_tools" />
+    <draweruserfolder launcher:container="-100" launcher:x="2" launcher:title="@string/default_folder_name_sns" />
+    <draweruserfolder launcher:container="-100" launcher:x="3" launcher:title="@string/default_folder_name_entertainment" />
+    <shortcut launcher:container="-101" launcher:x="0" launcher:icon="@drawable/app_com_android_contacts2" launcher:title="@string/shortcut_dialer" launcher:action="android.intent.action.DIAL" />
+    <shortcut launcher:container="-101" launcher:x="1" launcher:icon="@drawable/app_com_android_contacts" launcher:title="@string/shortcut_contacts" launcher:action="android.intent.action.VIEW" launcher:uri="content://com.android.contacts/contacts" />
+    <shortcut launcher:container="-101" launcher:x="2" launcher:icon="@drawable/app_com_android_mms" launcher:title="@string/shortcut_sms" launcher:action="android.intent.action.MAIN" launcher:type="vnd.android-dir/mms-sms" />
+    <shortcut launcher:container="-101" launcher:x="3" launcher:icon="@drawable/app_com_android_browser" launcher:title="@string/shortcut_browser" launcher:action="android.intent.action.VIEW" launcher:uri="http://www.google.com/m" launcher:category="android.intent.category.BROWSABLE" />
+</favorites>

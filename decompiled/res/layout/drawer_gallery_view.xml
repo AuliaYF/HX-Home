@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/image_albums_list_view" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:divider="@color/transparent" />
+    <ListView android:id="@id/gallery_albums_list_view" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/transparent" android:divider="@color/transparent" />
+    <GridView android:id="@id/image_albums_grid_view" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:verticalSpacing="2.0dip" android:stretchMode="spacingWidthUniform" android:columnWidth="100.0dip" android:numColumns="auto_fit" />
+    <GridView android:id="@id/gallery_albums_grid_view" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:verticalSpacing="2.0dip" android:stretchMode="spacingWidthUniform" android:columnWidth="100.0dip" android:numColumns="auto_fit" />
+    <com.carldeancatabay.launcher.drawer.ImageWorkspaceView android:id="@id/image_albums_workspace_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.carldeancatabay.launcher.drawer.GalleryWorkspaceView android:id="@id/gallery_albums_workspace_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

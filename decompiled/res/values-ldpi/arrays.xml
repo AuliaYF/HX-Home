@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_video_layout_values">
+        <item>3x3</item>
+        <item>3x3</item>
+    </string-array>
+    <string-array name="home_layout_values">
+        <item>3x4</item>
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+    <string-array name="drawer_layout_values">
+        <item>4x4</item>
+        <item>5x4</item>
+        <item>5x5</item>
+    </string-array>
+    <integer-array name="wallpaper_preview_size">
+        <item>213</item>
+        <item>178</item>
+    </integer-array>
+    <integer-array name="wallpaper_overview_size">
+        <item>90</item>
+        <item>72</item>
+    </integer-array>
+</resources>

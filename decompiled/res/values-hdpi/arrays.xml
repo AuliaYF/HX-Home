@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="wallpaper_preview_size">
+        <item>480</item>
+        <item>400</item>
+    </integer-array>
+    <integer-array name="wallpaper_overview_size">
+        <item>170</item>
+        <item>142</item>
+    </integer-array>
+</resources>

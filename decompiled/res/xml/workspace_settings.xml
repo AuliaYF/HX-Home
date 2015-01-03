@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.carldeancatabay.launcher">
+    <PreferenceScreen android:title="@string/settings_screenlock_set" android:key="pref_key_screenlock_set">
+        <CheckBoxPreference android:title="@string/settings_screenlock" android:key="pref_key_screenlock" android:summary="@string/settings_screenlock_tip" android:defaultValue="false" />
+        <Preference android:title="@string/settings_screenlock_choose" android:key="pref_key_screenlock_choice" />
+        <CheckBoxPreference android:title="@string/settings_screenlock_password_enable" android:key="pref_key_screenlock_password_enable" android:summary="@string/settings_screenlock_screenlock_tip" android:defaultValue="false" />
+        <PreferenceScreen android:title="@string/settings_screenlock_password_setting" android:key="pref_key_screenlock_password_setting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/settings_home_screen" android:key="pref_settings_home_screen">
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/pref_screen_orientation_title" android:key="pref_screen_orientation" android:defaultValue="0" />
+        <CheckBoxPreference android:title="@string/pref_lock_home_screen_title" android:key="pref_lock_home_screen" android:summary="@string/pref_lock_home_screen_summary" android:defaultValue="false" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/pref_wallpaper_type_title" android:key="pref_wallpaper_type" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:persistent="false" android:title="@string/pref_screen_transformation_type_title" android:key="pref_home_screen_key_effects" />
+        <CheckBoxPreference android:title="@string/pref_loop_screen_title" android:key="pref_key_loop_home_screen" android:summary="@string/pref_loop_screen_summary" android:defaultValue="true" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/settings_home_layout" android:key="pref_home_layout_type" />
+        <com.carldeancatabay.launcher.preference.ListPreference android:title="@string/settings_icon_size_type" android:key="pref_icon_size_type" android:defaultValue="1" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/settings_widget" android:key="pref_settings_widget">
+        <PreferenceCategory android:title="@string/settings_widget_taskmanager">
+            <com.carldeancatabay.launcher.preference.WhiteListPreference android:title="@string/taskmanager_preference_title" android:key="pref_key_package_name" android:summary="@string/settings_widget_taskmanager_white_list" />
+            <Preference android:title="@string/switcher_screen_lock_preference_title" android:key="pref_key_switcher_screen_lock" android:summary="@string/switcher_screen_lock_preference_summary" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <Preference android:title="@string/settings_home_migrate" android:key="pref_settings_home_migrate" />
+    <PreferenceScreen android:title="@string/settings_backup" android:key="pref_key_backup" android:shouldDisableView="true">
+        <com.carldeancatabay.launcher.preference.ClickActionPreference android:title="@string/settings_backup_start" android:key="pref_screen_backup_start" android:summary="@string/settings_backup_backup_tip" android:dialogTitle="@string/settings_backup_start" custom:showDialog="true" />
+        <com.carldeancatabay.launcher.preference.ClickActionPreference android:title="@string/settings_backup_restore" android:key="pref_screen_backup_restore" android:summary="@string/settings_backup_restore_tip" android:dialogTitle="@string/settings_backup_restore" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/default_app_title" android:key="pref_key_default_setting" />
+    <Preference android:title="@string/settings_version_update" android:key="pref_key_version_name" />
+    <PreferenceScreen android:title="@string/settings_about_info" android:key="pref_key_about_info" />
+    <Preference android:title="@string/settings_launcher_exit" android:key="pref_key_launcher_exit" />
+</PreferenceScreen>

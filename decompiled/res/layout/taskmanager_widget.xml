@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:layout_gravity="center" android:id="@id/cleanup" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/flash_view_container" android:layout_width="@dimen/app_icon_size" android:layout_height="@dimen/app_icon_size" android:layout_marginTop="@dimen/taskmanager_icon_marginTop" android:layout_centerHorizontal="true">
+        <View android:id="@id/taskmanager_water_top" android:background="@drawable/taskmanager_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/taskmanager_flash_margin" />
+        <com.carldeancatabay.launcher.taskmanager.TaskManagerFlashViewNew android:id="@id/btn_cleanup" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/taskmanager_flash_margin" />
+        <View android:background="@drawable/taskmanager_front" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+</com.carldeancatabay.launcher.view.RelativeLayout>

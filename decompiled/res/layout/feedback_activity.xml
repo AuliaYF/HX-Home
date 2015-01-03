@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:background="@drawable/dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/dialog_text_title" android:layout_gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/menu_feedback" />
+        <com.carldeancatabay.launcher.view.LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <EditText android:textSize="16.0sp" android:textColorHint="@color/dialog_text_sublevel" android:gravity="top|left|center" android:id="@id/feedback_content" android:layout_width="fill_parent" android:layout_height="@dimen/feedback_activity_content_edittext_height" android:hint="@string/feedback_tip" />
+            <EditText android:textSize="16.0sp" android:textColorHint="@color/dialog_text_sublevel" android:gravity="top|left|center" android:id="@id/contact_content" android:layout_width="fill_parent" android:layout_height="60.0dip" android:hint="@string/feedback_contact_tip" />
+            <com.carldeancatabay.launcher.view.RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+                <Button android:textSize="18.0sp" android:textColor="@color/dialog_text_dark" android:id="@id/feedback_send_btn" android:background="@drawable/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_send" android:layout_alignParentLeft="true" />
+                <Button android:textSize="18.0sp" android:textColor="@color/dialog_text_dark" android:id="@id/feedback_cancel_btn" android:background="@drawable/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel_action" android:layout_alignParentRight="true" />
+            </com.carldeancatabay.launcher.view.RelativeLayout>
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.view.LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:background="@color/theme_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout style="@style/LocalTheme.Header">
+        <TextView android:text="@string/theme_screenlock" style="@style/LocalTheme.Title" />
+        <TextView android:id="@id/screenlock_bg_entry" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:text="@string/theme_screenlock_bg" style="@style/LocalTheme.Header.Entry" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <ListView android:id="@id/screenlock_listview" style="@style/LocalTheme.Body" />
+</com.carldeancatabay.launcher.view.LinearLayout>

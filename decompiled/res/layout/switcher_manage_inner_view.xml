@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:id="@id/switcher_manage_inner_view" android:background="@drawable/switcher_itemselector" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/switcher_button" android:paddingTop="@dimen/switcher_inner_view_image_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff578637" android:layout_gravity="center_horizontal" android:id="@id/switcher_text" android:paddingTop="@dimen/switcher_inner_view_text_margin_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+</com.carldeancatabay.launcher.view.LinearLayout>

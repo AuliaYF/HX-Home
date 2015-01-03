@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.ScreenManager android:id="@id/screen_manager" android:background="@color/dark_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/screens_container" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="5.0dip" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:layout_alignParentBottom="true" class="com.carldeancatabay.launcher.ScreensPreviewGridView" />
+    <view android:id="@id/screens_bigger_container" android:visibility="gone" android:scrollbars="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" class="com.carldeancatabay.launcher.ScreenManagerAddToScreenPreview">
+        <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/screens_bigger" android:background="@drawable/screen_drop_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/screen_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:layout_centerHorizontal="true" />
+        </com.carldeancatabay.launcher.view.RelativeLayout>
+        <ImageView android:id="@id/background_preview" android:background="@drawable/screen_manager_icon_drop_border" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </view>
+</com.carldeancatabay.launcher.ScreenManager>

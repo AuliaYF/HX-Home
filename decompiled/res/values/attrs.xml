@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="direction">
+        <enum name="vertical" value="0" />
+        <enum name="horizontal" value="1" />
+    </attr>
+    <attr name="cellWidth" format="dimension" />
+    <attr name="cellHeight" format="dimension" />
+    <attr name="longAxisStartPadding" format="dimension" />
+    <attr name="longAxisEndPadding" format="dimension" />
+    <attr name="shortAxisStartPadding" format="dimension" />
+    <attr name="shortAxisEndPadding" format="dimension" />
+    <attr name="shortAxisCells" format="integer" />
+    <attr name="longAxisCells" format="integer" />
+    <attr name="className" format="string" />
+    <attr name="packageName" format="string" />
+    <attr name="container" format="string" />
+    <attr name="screen" format="string" />
+    <attr name="x" format="string" />
+    <attr name="y" format="string" />
+    <attr name="spanX" format="string" />
+    <attr name="spanY" format="string" />
+    <attr name="icon" format="reference" />
+    <attr name="title" format="reference" />
+    <attr name="action" format="string" />
+    <attr name="uri" format="string" />
+    <attr name="type" format="string" />
+    <attr name="category" format="string" />
+    <attr name="widgetViewType" format="integer" />
+    <attr name="maxYCount" format="integer" />
+    <attr name="textThemeCategoryName" format="reference|string" />
+    <attr name="textThemeCategorySize" format="reference|string" />
+    <attr name="imageThemeOverview" format="reference" />
+    <attr name="textThemeName" format="reference|string" />
+    <attr name="textThemePage" format="reference|string" />
+    <attr name="showDialog" format="boolean" />
+    <attr name="checkAll" format="string" />
+    <attr name="separator" format="string" />
+    <attr name="inverse" format="boolean" />
+    <attr name="actionDropDownStyle" format="reference" />
+    <attr name="popupMenuStyle" format="reference" />
+    <attr name="dropDownListViewStyle" format="reference" />
+    <attr name="actionBarTabTextStyle" format="reference" />
+    <attr name="height" format="dimension" />
+    <attr name="itemPadding" format="dimension" />
+    <attr name="layout_gravity" format="reference" />
+</resources>

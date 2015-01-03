@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:background="#ffe8e8e8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.util.MySlideView2 android:id="@id/gettingstart_pager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:src="@drawable/gettingstart_1" style="@style/GettingStart_Image" />
+        <ImageView android:src="@drawable/gettingstart_2" style="@style/GettingStart_Image" />
+        <ImageView android:src="@drawable/gettingstart_3" style="@style/GettingStart_Image" />
+        <ImageView android:src="@drawable/gettingstart_4" style="@style/GettingStart_Image" />
+        <ImageView android:src="@drawable/gettingstart_5" style="@style/GettingStart_Image" />
+    </com.carldeancatabay.launcher.util.MySlideView2>
+</com.carldeancatabay.launcher.view.RelativeLayout>

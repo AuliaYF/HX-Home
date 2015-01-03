@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:background="#ffd7d6d3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_above="@id/shared_picture_note">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/shared_picture_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.carldeancatabay.launcher.view.FrameLayout>
+    <TextView android:textSize="17.0dip" android:textColor="#aa1f1f27" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/shared_picture_note" android:layout_width="fill_parent" android:layout_height="34.0dip" android:text="@string/share_pic_note" android:layout_above="@id/shared_picture_bottom_bar" />
+    <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/shared_picture_bottom_bar" android:background="@drawable/theme_preview_menu_bg" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/save_pic" android:background="@drawable/preview_apply_bk_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="17.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/save_pic_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/global_save" android:drawableLeft="@drawable/share_screen_save_btn" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/share_pic" android:background="@drawable/preview_apply_bk_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="4.0">
+            <TextView android:textSize="17.0dip" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_pic_share_btn" android:drawableLeft="@drawable/share_screen_share_btn" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/exit_pic" android:background="@drawable/preview_apply_bk_selector" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="17.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:drawableLeft="@drawable/share_screen_exit_btn" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.view.RelativeLayout>

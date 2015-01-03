@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="horizontal" android:id="@id/theme_bottom_bar" android:background="@drawable/theme_preview_menu_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/theme_apply" android:background="@drawable/preview_apply_bk_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_weight="10.0" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:background="@drawable/wallpaper_apply_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="20.0dip" android:textColor="@*android:color/white" android:layout_gravity="center" android:id="@id/preview_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/theme_apply" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+    <Button android:layout_gravity="center_vertical" android:id="@id/theme_delete" android:background="@drawable/wallpaper_preset_delete" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0" />
+</com.carldeancatabay.launcher.view.LinearLayout>

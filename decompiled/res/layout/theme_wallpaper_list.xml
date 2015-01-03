@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/local_theme_title_layout" android:background="@drawable/theme_title_bk" android:layout_width="fill_parent" android:layout_height="47.0dip">
+        <TextView android:textSize="20.0dip" android:textColor="@color/theme_name" android:id="@id/local_theme_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/theme_applying_theme_wallpaper_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/local_wallpaper_entry" android:text="@string/theme_local_wallpaper" style="@style/LocalTheme.Header.Entry" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <ListView android:id="@id/wallpaper_listview" android:background="#ffd7d6d3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:stretchMode="columnWidth" android:divider="#00000000" />
+</com.carldeancatabay.launcher.view.LinearLayout>

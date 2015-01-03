@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:orientation="horizontal" android:id="@id/local_theme_title_layout" android:background="@drawable/theme_title_bk" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0dip" android:textColor="@color/theme_name" android:id="@id/local_theme_list_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <ListView android:id="@id/local_theme_list_listview" android:background="#ffd7d6d3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#00000000" />
+</com.carldeancatabay.launcher.view.LinearLayout>

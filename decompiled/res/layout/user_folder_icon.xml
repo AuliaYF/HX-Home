@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.UserFolderIcon android:background="@drawable/item_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.RelativeLayout android:id="@id/main_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.carldeancatabay.launcher.BubbleTextView android:ellipsize="none" android:id="@id/icon_title" android:layout_width="@dimen/app_text_fadding_size" android:layout_centerHorizontal="true" style="@style/BubbleTextView" />
+        <com.carldeancatabay.launcher.view.LinearLayout android:layout_gravity="top|center" android:orientation="vertical" android:id="@id/preview_icons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/folder_icon_snapshot_top" android:layout_marginRight="1.5dip" android:layout_centerHorizontal="true">
+            <com.carldeancatabay.launcher.view.LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_centerInParent="true">
+                <ImageView android:id="@id/item0" android:layout_marginRight="1.0dip" style="@style/FolderSnapshot" />
+                <ImageView android:id="@id/item1" android:layout_marginLeft="1.0dip" style="@style/FolderSnapshot" />
+            </com.carldeancatabay.launcher.view.LinearLayout>
+            <com.carldeancatabay.launcher.view.LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_centerInParent="true">
+                <ImageView android:id="@id/item2" android:layout_marginRight="1.0dip" style="@style/FolderSnapshot" />
+                <ImageView android:id="@id/item3" android:layout_marginLeft="1.0dip" style="@style/FolderSnapshot" />
+            </com.carldeancatabay.launcher.view.LinearLayout>
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </com.carldeancatabay.launcher.view.RelativeLayout>
+    <ImageView android:id="@id/folder_foreground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/BubbleTextView" />
+    <ImageView android:id="@id/delete_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/tabclose" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</com.carldeancatabay.launcher.UserFolderIcon>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.DrawerImpl android:background="#ff000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.carldeancatabay.launcher.view.LinearLayout android:id="@id/tabs_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.carldeancatabay.launcher.actionbar.ActionBarView android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Launcher.ActionBar" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+        <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/tab_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.DrawerImpl>

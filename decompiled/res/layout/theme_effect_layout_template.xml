@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.theme.EffectCellLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:hapticFeedbackEnabled="false" launcher:cellWidth="@dimen/theme_effect_previous_cell_width" launcher:cellHeight="@dimen/theme_effect_previous_cell_height" launcher:longAxisStartPadding="@dimen/theme_effect_previous_long_axis_padding" launcher:longAxisEndPadding="@dimen/theme_effect_previous_long_axis_padding" launcher:shortAxisStartPadding="0.0dip" launcher:shortAxisEndPadding="@dimen/theme_effect_previous_short_axis_end_padding" launcher:shortAxisCells="4" launcher:longAxisCells="4"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:launcher="http://schemas.android.com/apk/res/com.carldeancatabay.launcher" />

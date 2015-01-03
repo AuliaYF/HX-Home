@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip">
+        <TextView android:textColor="@color/dialog_text_dark" android:id="@id/drawer_detail_path" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/dialog_text_dark" android:id="@id/drawer_detail_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+    <com.carldeancatabay.launcher.view.LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:textColor="@color/dialog_text_dark" android:id="@id/drawer_detial_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/dialog_text_dark" android:id="@id/drawer_detial_size" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/dialog_text_dark" android:id="@id/drawer_detial_width_height" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/dialog_text_dark" android:id="@id/drawer_detial_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.view.LinearLayout>

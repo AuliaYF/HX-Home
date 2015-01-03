@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/main" android:background="@drawable/powermanager_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/power_optimizer_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/power_optimizer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_power_optimizer" />
+        <ImageView android:id="@id/power_optimizer_anim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@anim/powermanager_power_optimizer" />
+    </com.carldeancatabay.launcher.view.FrameLayout>
+    <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/battery_power_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/power_optimizer_area">
+        <ImageView android:id="@id/battery_power" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_high_power_full" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_top_bottom" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_body" />
+        <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_num_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_num_1" />
+            <ImageView android:id="@id/img_num_t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_num_0" />
+            <ImageView android:id="@id/img_num_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_num_0" />
+            <ImageView android:id="@id/img_num_p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_num_percent" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </com.carldeancatabay.launcher.view.FrameLayout>
+    <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/power_mode_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/active_power_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_active_power_mode" />
+        <ImageView android:id="@id/inactive_power_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/powermanager_inactive_power_mode" />
+    </com.carldeancatabay.launcher.view.FrameLayout>
+    <com.carldeancatabay.launcher.view.FrameLayout android:id="@id/power_mode_text_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/power_mode_area" android:layout_toRightOf="@id/battery_power_area" android:layout_centerInParent="true">
+        <com.carldeancatabay.launcher.view.LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginRight="4.0dip">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/power_mode_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </com.carldeancatabay.launcher.view.LinearLayout>
+    </com.carldeancatabay.launcher.view.FrameLayout>
+</com.carldeancatabay.launcher.view.RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/theme_online_error" android:background="@color/paper_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/theme_online_error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/theme_error" />
+        <TextView android:gravity="center_horizontal" android:id="@id/theme_online_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        <Button android:id="@id/theme_online_error_refresh" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/theme_error_refresh" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+</com.carldeancatabay.launcher.view.LinearLayout>

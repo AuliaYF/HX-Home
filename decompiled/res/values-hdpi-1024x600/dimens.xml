@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="workspace_long_axis_end_padding">125.0dip</dimen>
+    <dimen name="drawer_bottom_margin">10.0dip</dimen>
+    <dimen name="bottom_area_height">84.0dip</dimen>
+    <dimen name="button_bar_height">70.0dip</dimen>
+    <dimen name="app_icon_size">48.0dip</dimen>
+    <dimen name="dockbar_icon_size">50.669983dip</dimen>
+    <dimen name="app_icon_bg_outter_padding">4.669983dip</dimen>
+    <dimen name="app_icon_bg_inner_padding">4.0dip</dimen>
+    <dimen name="app_text_fadding_size">70.0dip</dimen>
+    <dimen name="shortcut_icon_size">60.0dip</dimen>
+    <dimen name="folder_content_size">120.0dip</dimen>
+    <dimen name="folder_line_height">130.0dip</dimen>
+    <dimen name="folder_text_bottom_offset">3.0px</dimen>
+    <dimen name="taskmanager_flash_margin">4.0dip</dimen>
+    <dimen name="icon_size">96.0px</dimen>
+    <dimen name="theme_screenlock_preview_margin_top">50.0dip</dimen>
+    <dimen name="theme_screenlock_preview_height">700.0px</dimen>
+    <dimen name="theme_screenlock_preview_width">420.0px</dimen>
+    <dimen name="theme_screenlock_preview_gallery_spacing">56.0dip</dimen>
+</resources>

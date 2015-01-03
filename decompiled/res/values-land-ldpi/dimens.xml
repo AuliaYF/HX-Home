@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="folder_text_bottom_offset">9.0px</dimen>
+    <dimen name="folder_bottom_min_offset">2.0dip</dimen>
+    <dimen name="theme_effect_previous_cell_width">56.0dip</dimen>
+    <dimen name="theme_effect_previous_cell_height">56.0dip</dimen>
+    <dimen name="theme_effect_previous_short_axis_end_padding">44.0dip</dimen>
+    <dimen name="theme_effect_previous_long_axis_padding">46.0dip</dimen>
+</resources>

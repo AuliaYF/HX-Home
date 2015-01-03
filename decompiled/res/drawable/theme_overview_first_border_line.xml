@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="#ffd7d6d3" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/theme_overview_fist_background" android:left="14.0dip" android:top="12.0dip" android:right="14.0dip" />
+</layer-list>

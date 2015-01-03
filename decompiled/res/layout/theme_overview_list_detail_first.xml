@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.view.RelativeLayout android:orientation="vertical" android:background="@drawable/theme_overview_first_border_line" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="horizontal" android:id="@id/using_image_layout" android:background="@drawable/theme_overview_first_img_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="26.0dip" android:layout_marginBottom="16.669983dip" android:layout_alignParentLeft="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/local_theme_list_detail_first_img1" android:layout_width="66.0dip" android:layout_height="110.0dip" android:layout_marginLeft="3.0dip" android:layout_marginTop="0.30000007dip" android:layout_marginBottom="2.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/local_theme_list_detail_first_img2" android:layout_width="66.0dip" android:layout_height="110.0dip" android:layout_marginTop="0.30000007dip" android:layout_marginBottom="2.0dip" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+    <com.carldeancatabay.launcher.view.LinearLayout android:orientation="vertical" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginLeft="13.299988dip" android:layout_marginTop="35.0dip" android:layout_toRightOf="@id/using_image_layout">
+        <TextView android:textSize="18.669983dip" android:textColor="@color/theme_name" android:id="@id/local_theme_list_detail_first_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="13.299988dip" android:textColor="@color/theme_details" android:id="@id/local_theme_list_detail_first_author" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="13.299988dip" android:textColor="@color/theme_details" android:id="@id/local_theme_list_detail_first_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    </com.carldeancatabay.launcher.view.LinearLayout>
+    <ImageView android:background="@drawable/theme_overview_first_rightbottom_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" android:layout_marginRight="14.5dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</com.carldeancatabay.launcher.view.RelativeLayout>

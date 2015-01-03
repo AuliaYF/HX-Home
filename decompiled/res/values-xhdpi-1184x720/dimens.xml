@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="workspace_long_axis_end_padding">100.0dip</dimen>
+    <dimen name="folder_content_size">78.0dip</dimen>
+    <dimen name="folder_line_height">90.0dip</dimen>
+    <dimen name="folder_text_bottom_offset">3.0px</dimen>
+    <dimen name="icon_size">96.0px</dimen>
+    <dimen name="theme_screenlock_preview_margin_top">50.0dip</dimen>
+    <dimen name="theme_screenlock_preview_height">700.0px</dimen>
+    <dimen name="theme_screenlock_preview_width">420.0px</dimen>
+    <dimen name="theme_screenlock_preview_gallery_spacing">54.0dip</dimen>
+</resources>

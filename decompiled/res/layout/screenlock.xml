@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.carldeancatabay.launcher.screenlock.ScreenLockView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.carldeancatabay.launcher.screenlock.Clock android:id="@id/screenlock_clock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/clock_margin_top" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/screenlock_clock_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerInParent="true">
+            <TextView android:textSize="72.0sp" android:textColor="@*android:color/white" android:id="@id/screenlock_clock_time_text" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff333333" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="4.0" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@*android:color/white" android:id="@id/screenlock_clock_ampm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:shadowColor="#ff333333" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:layout_toRightOf="@id/screenlock_clock_time_text" android:layout_alignTop="@id/screenlock_clock_time_text" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/screenlock_clock_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/screenlock_clock_time" android:layout_centerHorizontal="true">
+            <TextView android:textSize="15.0sp" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/screenlock_clock_date_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff333333" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+            <TextView android:textSize="15.0sp" android:textColor="@*android:color/white" android:gravity="center" android:id="@id/screenlock_clock_date_week" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:shadowColor="#ff333333" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="4.0" />
+        </LinearLayout>
+    </com.carldeancatabay.launcher.screenlock.Clock>
+    <com.carldeancatabay.launcher.screenlock.ControlLayout android:id="@id/screenlock_control_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@id/screenlock_lines" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.carldeancatabay.launcher.screenlock.LockPhone android:gravity="top|right|center" android:id="@id/screenlock_phone" android:background="@drawable/screenlock_phone" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/screenlock_missed_calls" android:background="@drawable/screenlock_notify_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.carldeancatabay.launcher.screenlock.LockPhone>
+        <com.carldeancatabay.launcher.screenlock.LockSms android:gravity="top|right|center" android:id="@id/screenlock_sms" android:background="@drawable/screenlock_sms" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textColor="#ffffffff" android:gravity="center" android:id="@id/screenlock_unread_messages" android:background="@drawable/screenlock_notify_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.carldeancatabay.launcher.screenlock.LockSms>
+        <com.carldeancatabay.launcher.screenlock.LockUnlock android:id="@id/screenlock_unlock" android:background="@drawable/screenlock_unlock" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <com.carldeancatabay.launcher.screenlock.Orb android:id="@id/screenlock_orb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/screenlock_orb_selected" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/screenlock_dragging" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/screenlock_orb_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/screenlock_battery_green" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/screenlock_orb_bg" android:background="@drawable/screenlock_center_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/screenlock_center_icon_normal" android:layout_centerInParent="true" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff444444" android:gravity="center" android:id="@id/screenlock_orb_content" android:background="@drawable/screenlock_center_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ffffffff" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" />
+        </com.carldeancatabay.launcher.screenlock.Orb>
+    </com.carldeancatabay.launcher.screenlock.ControlLayout>
+</com.carldeancatabay.launcher.screenlock.ScreenLockView>
